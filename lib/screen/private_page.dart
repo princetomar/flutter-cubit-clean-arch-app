@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:auto_route/auto_route.dart';
-import 'package:autoroutertut/routes/app_router.gr.dart';
 
 @RoutePage()
-class PrivatePage extends StatelessWidget {
+class PrivatePage extends StatefulWidget {
   const PrivatePage({super.key});
 
+  @override
+  State<PrivatePage> createState() => _PrivatePageState();
+}
+
+class _PrivatePageState extends State<PrivatePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

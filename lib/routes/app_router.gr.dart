@@ -9,11 +9,11 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i8;
-import 'package:autoroutertut/home_page.dart' as _i1;
 import 'package:autoroutertut/posts/presentation/pages/all_posts_page.dart'
     as _i2;
-import 'package:autoroutertut/private_page.dart' as _i3;
-import 'package:autoroutertut/profile_page.dart' as _i4;
+import 'package:autoroutertut/screen/home_page2.dart' as _i1;
+import 'package:autoroutertut/screen/private_page.dart' as _i3;
+import 'package:autoroutertut/screen/profile_page.dart' as _i4;
 import 'package:autoroutertut/screen/screen_a.dart' as _i5;
 import 'package:autoroutertut/screen/screen_b.dart' as _i6;
 import 'package:autoroutertut/screen/screen_c.dart' as _i7;
